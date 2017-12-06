@@ -1,0 +1,8 @@
+{
+  "name": "Robert Graham-Hu's Website",
+  "description": "Personal Website for Robert Graham-Hu to showcase his projects and talent.",
+  "repository": "https://github.com/RobertG-H/robertgrahamhu.ca.git",
+  "logo": "",
+  "keywords": ["node", "express", "heroku"],
+  "image": ""
+}
