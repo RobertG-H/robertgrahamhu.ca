@@ -14,6 +14,7 @@ body{
 
 .navbar.scrolled {
       background: rgba(85, 85, 85, 0);
+      color: white !important;
 }
 
 .navbar-item{
@@ -25,15 +26,44 @@ body{
   padding-top: 5px;
 }
 
+.nav-name{
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  font-size: 45px;
+}
+
+.has-text-weight-light{
+  font-weight: 100;
+}
 .main-name{
   background: rgba(0, 0, 0, 0.42);
   padding: 0px;
 }
 
 .has-bg-img {
-  background: url('/images/jumbotron.jpg')center center;
+  background: url('/images/jumbotron-big.jpg')center center;
   background-size:cover;
+
+
 }
+
+@media screen and (max-width: 769px){
+
+  .has-bg-img{
+
+    background: url('/images/jumbotron-small.jpg')center center;
+    background-size:cover;
+  }
+  .hero{
+    padding: 0px;
+  }
+  .grey-layer .hero-body{
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+  }
+}
+
+
 
 .grey-layer {
     background-color: rgba(0, 0, 0, 0.6);
@@ -44,10 +74,28 @@ body{
     height: 100%;
 }
 
+.grey-layer .hero-body{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .title{
   color: white;
+
 }
 
 .subtitle{
   color: white;
+}
+
+.mini-hr{
+
+  max-width: 250px;
+}
+
+
+.small-content{
+  padding-top: 2rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
 }
