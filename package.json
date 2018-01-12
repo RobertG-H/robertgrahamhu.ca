@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "hover.css": "^2.2.1",
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
     "request": "^2.81.0",
@@ -27,5 +29,8 @@
     "heroku",
     "express"
   ],
+  "scripts": {
+    "build": "webpack"
+  },
   "license": "MIT"
 }

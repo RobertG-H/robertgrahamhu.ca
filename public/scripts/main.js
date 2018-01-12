@@ -4,6 +4,8 @@ $(document).ready(function(){
           checkScroll();
       });
   }
+
+
 });
 
 /**
@@ -21,4 +23,13 @@ function checkScroll(){
         $('.navbar-item').removeClass("scrolled");
         $('.navbar-menu').removeClass("scrolled");
     }
+}
+function scrollToSection(sec) {
+	var scroll = $('#'+sec);
+  var offset = -50; 
+
+  $('html, body').animate({
+      scrollTop: $(scroll).offset().top + offset
+  }, 500);
+
 }
