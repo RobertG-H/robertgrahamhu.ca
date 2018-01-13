@@ -1,6 +1,9 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+ul {
+    list-style-type: circle;
+}
 
 .navbar{
 
@@ -51,12 +54,16 @@ body{
 
 
 @media screen and (min-width: 1023px){
-  .navbar.scrolled {
+  .navbar.top {
         background: rgba(85, 85, 85, 0);
 
   }
-  .scrolled.navbar-item{
+  .navbar-item{
     color: white !important;
+  }
+
+  .navbar-item.scrolled{
+    color: black !important;
   }
 
 }
@@ -106,6 +113,15 @@ body{
 
 }
 
+.title.is-light{
+  color: black !important ;
+
+}
+
+.subtitle.is-light{
+  color: black !important ;
+}
+
 .subtitle{
   color: white;
 }
@@ -130,6 +146,7 @@ body{
   font-weight: 600;
 }
 
+
 .title-name{
   display: inline-block;
   vertical-align: middle;
@@ -138,18 +155,28 @@ body{
 .card{
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5) !important;
   margin-top: 16px;
+
+}
+
+.projects:hover{
+  cursor: pointer;
 }
 
 .image-padding{
-  padding: 15px;
+  padding: 5%;
 }
 
 
 .carousel-image{
-  width: 50% !important;
-  height: 50% !important;
-  /* padding-left: 20%; */
+  /* width: 60% !important; */
+  /* height: 60% !important; */
+  padding-left: 5%;
+  padding-right: auto;
 }
+
+
+
+
 
 /* Hover.css */
 
